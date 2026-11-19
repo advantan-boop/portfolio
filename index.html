@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Максим Чечёткин — Fullstack Developer. Python, Django, PHP, JavaScript. Разработка сайтов, интеграции и поддержка. Проекты с открытым кодом. Самара, удалённо.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff">
+  <title>Максим Чечёткин — Fullstack Developer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header">
+    <div class="header-inner container">
+    <a class="wordmark" href="#top" aria-label="В начало страницы">мч<span aria-hidden="true">.</span></a>
+    <nav aria-label="Основная навигация">
+      <a href="#about">О себе</a><a href="#stack">Стек</a><a href="#projects">Проекты</a><a href="#contact">Контакты</a>
+    </nav>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="hero-main">
+        <h1 id="hero-title" class="name" data-name>Максим Чечёткин</h1>
+        <p class="typing-line" aria-label="Fullstack Developer"><span aria-hidden="true"><span id="typed-role">Fullstack Developer</span><span class="typing-cursor">|</span></span></p>
+        <p class="hero-description">Создаю сайты с нуля, развиваю существующие проекты.<br class="desktop-break"> Соединяю интерфейсы, серверную логику и внешние сервисы.</p>
+        <div class="actions"><a class="button primary" href="#projects">Проекты</a><a class="button secondary" data-link="github" hidden><span class="brand-icon github-icon" aria-hidden="true"></span>GitHub</a><a class="button secondary" data-link="telegram" hidden><span class="brand-icon telegram-icon" aria-hidden="true"></span>Telegram</a></div>
+      </div>
+      <aside class="hero-aside" aria-label="Местоположение и формат работы">
+        
+        <div class="location"><span class="status-dot" aria-hidden="true"></span>Самара</div>
+        <p>Удалённо · гибрид в Самаре</p>
+      </aside>
+    </section>
+    <div class="experience"><p>2 года в веб-разработке, включая работу в компании и фриланс.</p></div>
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="about-heading"><p class="section-label">О себе</p><h2 id="about-title">Вижу задачу.<br><span>Довожу до решения.</span></h2></div>
+      <div class="about-copy"><p>Разрабатываю сайты с нуля и подключаюсь к существующим проектам: дорабатываю интерфейсы и серверную логику, добавляю функции и исправляю ошибки.</p><p>Настраиваю формы и обработку заявок, подключаю CRM и сторонние API. Помогаю связать то, что пользователь видит на странице, с тем, что происходит на сервере.</p></div>
+    </section>
+    <section id="stack" class="section" aria-labelledby="stack-title">
+      <h2 id="stack-title">Разные инструменты.<br><span>Цель — работающий сайт.</span></h2>
+      <div class="stack-grid">
+        <div class="stack-group"><h3><span aria-hidden="true">01 /</span> Backend</h3><ul><li>Python</li><li>Django</li><li>PHP</li><li>FastAPI</li></ul></div>
+        <div class="stack-group"><h3><span aria-hidden="true">02 /</span> Frontend</h3><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>Sass/SCSS</li><li>React <small>опыт в проектах</small></li></ul></div>
+        <div class="stack-group"><h3><span aria-hidden="true">03 /</span> Базы данных</h3><ul><li>MySQL</li><li>PostgreSQL</li><li>SQLAlchemy <small>ORM</small></li></ul></div>
+        <div class="stack-group"><h3><span aria-hidden="true">04 /</span> Инструменты</h3><ul><li>Git</li><li>GitHub</li><li>Docker <small>базовый опыт</small></li></ul></div>
+      </div>
+    </section>
+    <section id="projects" class="section projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Идеи становятся<br><span>проектами.</span></h2>
+      <p class="section-intro">Три проекта. Открытый код.<br>Посмотрите, как устроены конкретные функции.</p>
+      <div id="project-list"></div>
+      <noscript><p>Для просмотра карточек проектов включите JavaScript.</p></noscript>
+    </section>
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div><p class="small-label">Контакты</p><h2 id="contact-title">Следующий проект.<br><span>Возможно, ваш.</span></h2><p>Напишите о проекте или вакансии.<br>Рассматриваю удалёнку и гибрид в Самаре.</p></div>
+      <div class="contact-links"><a data-link="telegram" hidden><span><small>Telegram</small><span data-contact>@imnobitch</span></span><span aria-hidden="true">↗</span></a><a data-link="github" hidden><span><small>Код и репозитории</small>GitHub</span><span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="container"><span data-name>Максим Чечёткин</span><button id="theme-toggle" type="button" hidden>Сменить тему</button><a href="#top">Наверх <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
